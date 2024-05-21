@@ -1,7 +1,7 @@
 class OpenocdTamarin < Formula
     desc "On-chip debugging, in-system programming and boundary-scan testing"
     homepage "https://openocd.org/"
-    head "https://github.com/stacksmashing/openocd-tamarin.git", branch: "master"
+    head "https://github.com/stacksmashing/openocd-tamarin.git", branch: "tamarin"
     license "GPL-2.0-or-later"
     revision 1
   
@@ -11,7 +11,7 @@ class OpenocdTamarin < Formula
     end
   
     head do
-      url "https://github.com/openocd-org/openocd.git", branch: "master"
+      url "https://github.com/stacksmashing/openocd-tamarin.git", branch: "tamarin"
   
       depends_on "autoconf" => :build
       depends_on "automake" => :build
