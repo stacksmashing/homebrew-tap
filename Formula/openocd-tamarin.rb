@@ -1,4 +1,4 @@
-class OpenOcdTamarin < Formula
+class OpenocdTamarin < Formula
     desc "On-chip debugging, in-system programming and boundary-scan testing"
     homepage "https://openocd.org/"
     head "https://github.com/stacksmashing/openocd-tamarin.git", branch: "master"
